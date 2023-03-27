@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f310a4e8.css",
-    "main.js": "/React-Portfolio/static/js/main.6e96eda1.js",
+    "main.css": "/React-Portfolio/static/css/main.023a719d.css",
+    "main.js": "/React-Portfolio/static/js/main.b0d46f61.js",
     "static/media/movies2watch.png": "/React-Portfolio/static/media/movies2watch.2bd447ff136d586175e6.png",
     "static/media/jenn.png": "/React-Portfolio/static/media/jenn.1372aa312dcf71b06d54.png",
     "static/media/toots.png": "/React-Portfolio/static/media/toots.a1d49bbf893ad62a5df9.png",
@@ -12,15 +12,17 @@
     "static/media/quiz-Screenshot.png": "/React-Portfolio/static/media/quiz-Screenshot.e3a87e83847fb558cf4f.png",
     "static/media/pphatton-medium-webfont.woff": "/React-Portfolio/static/media/pphatton-medium-webfont.a432847a1fc422c8617d.woff",
     "static/media/logo-face.png": "/React-Portfolio/static/media/logo-face.a21b160fa2f261a9bb6d.png",
+    "static/media/port-link.svg": "/React-Portfolio/static/media/port-link.3220d0211170dd0bd86dcf79f7bc891a.svg",
     "static/media/icon-mail.svg": "/React-Portfolio/static/media/icon-mail.fd2133d4ace1a1f29c0cca0f9d24be78.svg",
+    "static/media/port-git.svg": "/React-Portfolio/static/media/port-git.5cc48168baf6fc4955da111332da54d2.svg",
     "static/media/icon-git.svg": "/React-Portfolio/static/media/icon-git.f8118b86fb1663a1b2613ffa3cb490a4.svg",
     "static/media/icon-in.svg": "/React-Portfolio/static/media/icon-in.5b3a49f963c9f4615f7f41a9fc7770b0.svg",
     "index.html": "/React-Portfolio/index.html",
-    "main.f310a4e8.css.map": "/React-Portfolio/static/css/main.f310a4e8.css.map",
-    "main.6e96eda1.js.map": "/React-Portfolio/static/js/main.6e96eda1.js.map"
+    "main.023a719d.css.map": "/React-Portfolio/static/css/main.023a719d.css.map",
+    "main.b0d46f61.js.map": "/React-Portfolio/static/js/main.b0d46f61.js.map"
   },
   "entrypoints": [
-    "static/css/main.f310a4e8.css",
-    "static/js/main.6e96eda1.js"
+    "static/css/main.023a719d.css",
+    "static/js/main.b0d46f61.js"
   ]
 }
