@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.f310a4e8.css",
+    "main.js": "/React-Portfolio/static/js/main.6e96eda1.js",
+    "static/media/movies2watch.png": "/React-Portfolio/static/media/movies2watch.2bd447ff136d586175e6.png",
+    "static/media/jenn.png": "/React-Portfolio/static/media/jenn.1372aa312dcf71b06d54.png",
+    "static/media/toots.png": "/React-Portfolio/static/media/toots.a1d49bbf893ad62a5df9.png",
+    "static/media/weather-screenshot.png": "/React-Portfolio/static/media/weather-screenshot.90598109a2dc8ef506b2.png",
+    "static/media/planner-screenshot.png": "/React-Portfolio/static/media/planner-screenshot.89d15a319aa23e0fb02a.png",
+    "static/media/beer-n-bites-screenshot.jpeg": "/React-Portfolio/static/media/beer-n-bites-screenshot.ae17005d19138c41fa90.jpeg",
+    "static/media/password generator.png": "/React-Portfolio/static/media/password generator.37f410bb65b3406f6150.png",
+    "static/media/quiz-Screenshot.png": "/React-Portfolio/static/media/quiz-Screenshot.e3a87e83847fb558cf4f.png",
+    "static/media/pphatton-medium-webfont.woff": "/React-Portfolio/static/media/pphatton-medium-webfont.a432847a1fc422c8617d.woff",
+    "static/media/logo-face.png": "/React-Portfolio/static/media/logo-face.a21b160fa2f261a9bb6d.png",
+    "static/media/icon-mail.svg": "/React-Portfolio/static/media/icon-mail.fd2133d4ace1a1f29c0cca0f9d24be78.svg",
+    "static/media/icon-git.svg": "/React-Portfolio/static/media/icon-git.f8118b86fb1663a1b2613ffa3cb490a4.svg",
+    "static/media/icon-in.svg": "/React-Portfolio/static/media/icon-in.5b3a49f963c9f4615f7f41a9fc7770b0.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.f310a4e8.css.map": "/React-Portfolio/static/css/main.f310a4e8.css.map",
+    "main.6e96eda1.js.map": "/React-Portfolio/static/js/main.6e96eda1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f310a4e8.css",
+    "static/js/main.6e96eda1.js"
+  ]
+}
