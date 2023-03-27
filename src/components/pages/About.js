@@ -4,6 +4,7 @@ import toots from '../assets/toots.png';
 import jenPic from '../assets/jenn.png';
 
 
+
 function About() {
   return (
     <div className='aboutWrapper'>
@@ -17,7 +18,7 @@ function About() {
       <div className='aboutInfo'>
         <div className='containerMain aboutFlex'>
           <div className='jenn'><img src={jenPic} alt="Jenn" width="100%"></img></div>
-          <div className='aboutText'>Learning to code and taking care of kids is a full time fun! Welcome to my portfolio of projects I created during my Full Stack Bootcamp at the University of Oregon in the rainy PNW.</div>
+          <div className='aboutText'>Learning to code and taking care of kids is full time fun! Welcome to my portfolio of projects I created during my Full Stack Bootcamp at the University of Oregon in the rainy PNW.</div>
         </div>
       </div>
     </div>
