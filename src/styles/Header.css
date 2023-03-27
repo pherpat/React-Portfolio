@@ -1,12 +1,43 @@
 .header {
-    background: #b71775;
-    height: 200px;
-  }
+  background: white;
+  font-family: 'Roboto', Sans-Serif;
+  display: flex;
+}
+
+div {
+  border: 1px solid red;
+}
   
-  .header h1 {
-    margin: 0;
-    padding-top: 75px;
-    text-align: center;
-    color: white;
-    font-size: 3rem;
+
+.header h1 {
+  display: inline-block; 
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
   }
+
+.header ul {
+  display: flex;
+  align-items: center;
+}
+
+
+li {
+  text-decoration: none !important; 
+  color: black !important;
+  margin-left: 25px;
+  margin-right: 95px;
+  font-size: 20px;
+  float: right;
+  list-style: none;
+  cursor: pointer;
+  
+} 
+
+.header li:hover {
+  color: rgb(155, 51, 253) !important;
+}
+
+.header ul li.active {
+  background-color: aqua;
+}

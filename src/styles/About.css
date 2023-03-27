@@ -1,0 +1,12 @@
+.avatar {
+    padding-top: 10px;
+    max-width: 200px;
+}
+
+p {
+    font-size: 20px;
+    background-color: white;
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
