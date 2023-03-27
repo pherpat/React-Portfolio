@@ -27,7 +27,7 @@ npm start
 
 ## Usage
 
-You can see a screenshot here: [Screenshot](https://github.com/pherpat/React-Portfolio/blob/main/src/components/assets/react-portfolio-screenshot.png)
+Screenshot (https://github.com/pherpat/React-Portfolio/blob/main/src/components/assets/react-portfolio-screenshot.png)
 
 You can see the deployed site here: [Portfolio](https://pherpat.github.io/React-Portfolio/)
 
