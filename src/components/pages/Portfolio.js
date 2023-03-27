@@ -23,7 +23,7 @@ export default function Portfolio() {
           </div>
           <h2>Beer'n'Bites</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Module5-challenge-planner')}>
+            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Beer-n-Bites')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
