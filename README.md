@@ -2,7 +2,7 @@
 
 ## Description
 
-  The purpose of this assigment was to to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+ Created a personal portfolio using React. 
 
  ## Table of Contents
 
@@ -29,9 +29,7 @@ npm start
 
 You can see a screenshot here: [Screenshot](https://github.com/pherpat/Social-Network-API/blob/main/assets/images/social-network-api-screenshot.png)
 
-You can see the deployed site here: [Screenshot](https://github.com/pherpat/Social-Network-API/blob/main/assets/images/social-network-api-screenshot.png)
-
-
+You can see the deployed site here: [Screenshot](https://pherpat.github.io/React-Portfolio/)
 
 ## Tests
 
