@@ -40,4 +40,5 @@ li {
 .logo {
   width: 100px;
   line-height: 100px;
+  cursor: pointer;
 }

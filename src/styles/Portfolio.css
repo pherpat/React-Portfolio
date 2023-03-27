@@ -1,7 +1,8 @@
 .project {
-    cursor: pointer;
-    padding: 20px;
     background-color: #f4f4f4;
+}
+.project:hover {
+    background-color: #e9e7ea;
 }
 
 h1 {
@@ -16,11 +17,43 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 40px;
 }
 
 .project h2 {
-    font-size: 16px;
+    font-size: 22px;
     color: #7b7b7b;
-    display: none;
+    border-left: 4px solid #FFA6EE;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+    margin-left: 20px;
+}
+
+.portImage {
+    min-height: 254px;
+    cursor: pointer;
+}
+
+.portLinkBox {
+    background-color: #A7B9FE;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portlink {
+    display: flex;
+    cursor: pointer;
+}
+
+.portlink span:hover {
+    color:#ced6f8;
+}
+
+.portIconText {
+    color: #ffffff;
+    font-family: Helvetica;
+    padding-left: 10px;
+    line-height: 30px;
 }
