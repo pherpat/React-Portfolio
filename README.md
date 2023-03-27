@@ -26,8 +26,7 @@ npm start
  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) 
 
 ## Usage
-
-Screenshot (https://github.com/pherpat/React-Portfolio/blob/main/src/components/assets/react-portfolio-screenshot.png)
+[![Screenshot](https://github.com/pherpat/React-Portfolio/blob/main/src/components/assets/react-portfolio-screenshot.png)](https://github.com/pherpat/React-Portfolio/blob/main/src/components/assets/react-portfolio-screenshot.png)
 
 You can see the deployed site here: [Portfolio](https://pherpat.github.io/React-Portfolio/)
 
