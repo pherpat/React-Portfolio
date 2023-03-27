@@ -29,7 +29,7 @@ npm start
 
 You can see a screenshot here: [Screenshot](https://github.com/pherpat/Social-Network-API/blob/main/assets/images/social-network-api-screenshot.png)
 
-You can see the deployed site here: [Screenshot](https://pherpat.github.io/React-Portfolio/)
+You can see the deployed site here: [Portfolio](https://pherpat.github.io/React-Portfolio/)
 
 ## Tests
 
