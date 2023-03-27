@@ -1,12 +1,61 @@
 .avatar {
-    padding-top: 10px;
-    max-width: 200px;
+  padding-top: 10px;
+  max-width: 200px;
 }
 
 p {
-    font-size: 20px;
-    background-color: white;
-    padding: 0px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+  font-size: 20px;
+  background-color: white;
+  padding: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.aboutHero {
+  background-color: #250949;
+}
+
+.aboutHeader {
+  font-family: 'hatton';
+  font-size: calc(4rem + 1.5vw) !important;
+  color: #ffffff;
+  line-height: 95%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: left;
+}
+
+.aboutLine {
+  background-color: #5D338C;
+  height: 2px;
+  margin-bottom: 40px;
+
+}
+
+.toots {
+  max-width: 630px;
+  margin-left: auto;
+  margin-top: -180px;
+  bottom: -110px;
+  position: relative;
+}
+
+.jenn {
+  max-width: 380px;
+  margin-top: -40px;
+}
+
+.aboutFlex {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 110px;
+}
+
+.aboutText {
+  padding-top: 150px;
+  max-width: 480px;
+  padding-right: 40px;
+  font-size: 22px;
+  color: #959595;
+  line-height: 40px;
 }
