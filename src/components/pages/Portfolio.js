@@ -18,12 +18,12 @@ export default function Portfolio() {
       <div className="gallery">
 
         <div className='project' >
-          <div className='portImage'onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
-          <img src={project2} width="100%" alt="project2" ></img>
+          <div className='portImage' onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
+            <img src={project2} width="100%" alt="project2" ></img>
           </div>
           <h2>Beer'n'Bites</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Beer-n-Bites')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Beer-n-Bites')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
@@ -32,15 +32,15 @@ export default function Portfolio() {
               <span className='portIconText'>Live Site</span>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className='project' >
-          <div className='portImage'onClick={event => window.open('https://pherpat.github.io/Module6-challenge-weather/')}>
-          <img src={project3} width="100%" alt="project3" ></img>
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://pherpat.github.io/Module6-challenge-weather/')}>
+            <img src={project3} width="100%" alt="project3" ></img>
           </div>
           <h2>Weather Dashboard</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Module6-challenge-weather')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Module6-challenge-weather')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
@@ -49,15 +49,15 @@ export default function Portfolio() {
               <span className='portIconText'>Live Site</span>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className='project' >
-          <div className='portImage'onClick={event => window.open('https://pherpat.github.io/Module4-challenge/')}>
-          <img src={project4} width="100%" alt="project4" ></img>
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://pherpat.github.io/Module4-challenge/')}>
+            <img src={project4} width="100%" alt="project4" ></img>
           </div>
           <h2>Quiz App</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Module4-challenge')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Module4-challenge')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
@@ -66,15 +66,15 @@ export default function Portfolio() {
               <span className='portIconText'>Live Site</span>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className='project' >
-          <div className='portImage'onClick={event => window.open('https://pherpat.github.io/Module5-challenge-planner/')}>
-          <img src={project5} width="100%" alt="project5" ></img>
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://pherpat.github.io/Module5-challenge-planner/')}>
+            <img src={project5} width="100%" alt="project5" ></img>
           </div>
           <h2>Work Day Scheduler App</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Module5-challenge-planner')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Module5-challenge-planner')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
@@ -83,15 +83,15 @@ export default function Portfolio() {
               <span className='portIconText'>Live Site</span>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className='project' >
-          <div className='portImage'onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
-          <img src={project6} width="100%" alt="project6" ></img>
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
+            <img src={project6} width="100%" alt="project6" ></img>
           </div>
           <h2>Movies2Watch</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Movies2Watch')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Movies2Watch')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
@@ -100,15 +100,15 @@ export default function Portfolio() {
               <span className='portIconText'>Live Site</span>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className='project' >
-          <div className='portImage'onClick={event => window.open('https://pherpat.github.io/Module3-challenge/')}>
-          <img src={project1} width="100%" alt="project1" ></img>
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://pherpat.github.io/Module3-challenge/')}>
+            <img src={project1} width="100%" alt="project1" ></img>
           </div>
           <h2>Password Generator</h2>
           <div className='portLinkBox'>
-            <div className='portlink'onClick={event => window.open('https://github.com/pherpat/Module3-challenge')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Module3-challenge')}>
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
@@ -117,13 +117,8 @@ export default function Portfolio() {
               <span className='portIconText'>Live Site</span>
             </div>
           </div>
-          </div>
+        </div>
 
-   
-
-         
-
-        
       </div>
     </div>
   );
