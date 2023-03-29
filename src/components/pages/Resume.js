@@ -5,7 +5,7 @@ export default function Resume() {
     <div className='containerMain'>
       <h1>Resume</h1>
       <p>
-        Comming soon!
+        Coming soon!
       </p>
     </div>
   );
