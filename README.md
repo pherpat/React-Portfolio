@@ -32,7 +32,7 @@ You can see the deployed site here: [Portfolio](https://pherpat.github.io/React-
 
 ## Tests
 
-No currebt testing
+No current testing
 
 ## Questions
  Please email me, if you have any questions
