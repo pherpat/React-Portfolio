@@ -1,7 +1,9 @@
+// First we import components from our components folder
 import React from 'react';
 import '../styles/Header.css';
 import faceLogo from '../components/assets/logo-face.png'
 
+//Header function with nav bar about, portfolio,resume and contact
 function Header(props) {
   const changePage = (page) => {
     props.changePage(page);
@@ -22,5 +24,5 @@ function Header(props) {
     </nav>
   );
 }
-
+// Exporting a component called Header
 export default Header;

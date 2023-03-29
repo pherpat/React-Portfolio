@@ -1,3 +1,4 @@
+// First we import components from our components folder
 import React from 'react';
 import '../../styles/Portfolio.css';
 import project1 from '../assets/password generator.png';

@@ -1,3 +1,4 @@
+// First we import components from our components folder
 import React from 'react';
 import github from '../components/assets/icon-git.svg';
 import LinkedIn from '../components/assets/icon-in.svg';
@@ -5,7 +6,7 @@ import instagram from '../components/assets/icon-mail.svg';
 import '../styles/Footer.css';
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
-
+// Footer function icon with links to github, linkedIn, and instagram 
 function Footer() {
   return (
     <div className='footer'>
@@ -21,5 +22,5 @@ function Footer() {
     </div>
   )
 }
-
+// Exporting a component called Footer
 export default Footer;

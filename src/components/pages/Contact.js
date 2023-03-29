@@ -1,6 +1,8 @@
+// import components from our components folder.
 import React, { useState } from 'react';
 import '../../styles/Contact.css';
 
+// Contact function - validating email and message - show message  "field is required"
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -76,5 +78,5 @@ function Contact() {
     </div>
   );
 }
-
+// Exporting a component called Contact
 export default Contact;

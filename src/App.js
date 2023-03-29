@@ -1,3 +1,4 @@
+//import components from our components folder
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Section from './components/Section';
@@ -8,6 +9,7 @@ import Resume from './components/pages/Resume';
 import Footer from './components/Footer';
 import AppStyle from './styles/App.css';
 
+//App function 
 function App() {
   const [currentPage, setCurrentPage] = useState('about');
 
@@ -35,5 +37,5 @@ function App() {
     </div>
   );
 }
-
+// Exporting a component called App
 export default App;

@@ -1,3 +1,4 @@
+//import components from our components folder
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

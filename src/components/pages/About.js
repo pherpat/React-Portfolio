@@ -1,10 +1,11 @@
+// First we import components from our components folder.
 import React from 'react';
 import '../../styles/About.css';
 import toots from '../assets/toots.png';
 import jenPic from '../assets/jenn.png';
 
 
-
+//About function 
 function About() {
   return (
     <div className='aboutWrapper'>
@@ -25,5 +26,5 @@ function About() {
 
   );
 }
-
+// Exporting a component called About
 export default About;
