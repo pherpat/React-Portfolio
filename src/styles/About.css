@@ -36,6 +36,7 @@
   max-width: 380px;
   margin-top: -25px;
   padding-left: 15px;
+  
 }
 
 .aboutFlex {
@@ -57,26 +58,39 @@
 /*--- Responsive - Media Queries ---*/
 @media screen and (max-width: 1080px) {
   .toots {
-    max-width: 500px;
+    max-width: 450px;
   }
- 
+  .aboutText {
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 105px;
+  }
 }
 
 /*--- Mobile queries ---*/
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 670px) {
   .toots {
-    max-width: 220px;
+    max-width: 400px;
     padding-top: 40px;
     bottom: -100px;
   }
   .aboutText {
     font-size: 20px;
-    color: #959595;
-    line-height: 30px;
-    padding-top: 150px;
+    padding-top: 75px;
+    max-width: 100%;
+    padding-right: 0px;
   }
   .aboutHeader {
     font-size: 55px !important;
     line-height: 65px;
+    
+  }
+  .aboutFlex {
+    display: block;
+    padding: 30px;
+    margin-right: 50px;
+  }
+  .jenn {
+     display: none;
   }
 }
