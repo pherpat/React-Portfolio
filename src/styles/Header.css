@@ -38,7 +38,28 @@ li {
 }
 
 .logo {
-  width: 100px;
+  width: 100px !important;
   line-height: 100px;
   cursor: pointer;
+  padding-left: 10px;
+}
+
+
+/*--- Mobile queries ---*/
+@media screen and (max-width: 620px) {
+.header ul {
+  padding: 0px;
+}
+
+  li {
+    font-size: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .header ul li.active {
+    width: 90%;
+  }
+  .logo {
+    padding-left: px;
+  }
 }

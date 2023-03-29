@@ -31,3 +31,17 @@
   color: #A5B6FB;
 
 }
+
+/*--- Mobile queries ---*/
+@media screen and (max-width: 620px) {
+  .footerIcons {
+    gap: 20px;
+  }
+
+  .footerText {
+    font-size: 25px;
+  }
+  .footerIcon {
+    max-width: 40px;
+  }
+}

@@ -13,9 +13,16 @@ p {
   font-size: 14px;
   line-height: 22px;
   color: #959595;
+  padding-left: 20px;
 }
 
 .containerMain {
   max-width: 1200px;
   margin: auto;
+}
+
+/*--- Mobile queries ---*/
+@media screen and (max-width: 620px) {
+ 
+  
 }

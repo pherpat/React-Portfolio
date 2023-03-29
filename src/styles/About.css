@@ -3,14 +3,6 @@
   max-width: 200px;
 }
 
-p {
-  font-size: 20px;
-  background-color: white;
-  padding: 0px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
 .aboutHero {
   background-color: #250949;
 }
@@ -42,7 +34,8 @@ p {
 
 .jenn {
   max-width: 380px;
-  margin-top: -40px;
+  margin-top: -25px;
+  padding-left: 15px;
 }
 
 .aboutFlex {
@@ -58,4 +51,32 @@ p {
   font-size: 22px;
   color: #959595;
   line-height: 40px;
+}
+
+
+/*--- Responsive - Media Queries ---*/
+@media screen and (max-width: 1080px) {
+  .toots {
+    max-width: 500px;
+  }
+ 
+}
+
+/*--- Mobile queries ---*/
+@media screen and (max-width: 620px) {
+  .toots {
+    max-width: 220px;
+    padding-top: 40px;
+    bottom: -100px;
+  }
+  .aboutText {
+    font-size: 20px;
+    color: #959595;
+    line-height: 30px;
+    padding-top: 150px;
+  }
+  .aboutHeader {
+    font-size: 55px !important;
+    line-height: 65px;
+  }
 }

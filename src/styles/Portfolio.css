@@ -1,8 +1,10 @@
+
 .project {
     background-color: #f4f4f4;
+    margin-bottom: 30px;
 }
 .project:hover {
-    background-color: #f4f4f4;
+    background-color: #e0e0e0;
 }
 
 h1 {
@@ -18,6 +20,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 40px;
+    padding: 20px;
 }
 
 .project h2 {
@@ -33,6 +36,7 @@ h1 {
 .portImage {
     min-height: 254px;
     cursor: pointer;
+    padding: 10px;
 }
 
 .portLinkBox {
@@ -56,4 +60,40 @@ h1 {
     font-family: Helvetica;
     padding-left: 10px;
     line-height: 30px;
+    max-width: 100%;
+}
+
+/*--- Responsive - Media Queries ---*/
+@media screen and (max-width: 1080px) {
+    .project h2 {
+        font-size: 20px;
+    }
+    .portImage {
+        min-height: 245px;
+       
+    }
+    .gallery {
+        display:block;
+    }
+    
+  }
+
+  /*--- Mobile queries ---*/
+@media screen and (max-width: 620px) {
+    .project h2 {
+        font-size: 15px;
+    }
+    .portImage {
+        min-height: 125px;
+        
+    }
+    .portIconText {
+        max-width: 80%;
+    }
+    
+    .gallery {
+        display:block;
+        justify-content: space-between;
+    }
+    
 }

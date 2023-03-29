@@ -51,3 +51,16 @@ form button:hover {
   font-family: Helvetica;
   padding-top: 14px;
 }
+
+/*--- Mobile queries ---*/
+@media screen and (max-width: 620px) {
+ 
+  form {
+    max-width: 350px;
+  }
+  form button {
+    
+    font-size: 15px;
+    padding: 11px 30px;
+}
+}
