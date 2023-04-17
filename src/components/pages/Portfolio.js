@@ -9,6 +9,7 @@ import project5 from '../assets/planner-screenshot.png';
 import project6 from '../assets/movies2watch.png';
 import portGit from '../assets/port-git.svg';
 import portLink from '../assets/port-link.svg';
+import project7 from '../assets/gc-screenshot.jpg';
 
 //onclick function and open in a new window 
 //building portfolio cards 
@@ -17,6 +18,25 @@ export default function Portfolio() {
     <div className='containerMain'>
       <h1 className="portfolioHeader">Portfolio</h1>
       <div className="gallery">
+
+
+         <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://glazed-and-confused.herokuapp.com/')}>
+            <img src={project7} width="100%" alt="project7" ></img> 
+          </div>
+          <h2>Glazed & Confused</h2>
+          <div className='portLinkBox'>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Movies2Watch')}>
+              <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Github Repo</span>
+            </div>
+            <div className='portlink' onClick={event => window.open('https://glazed-and-confused.herokuapp.com/')}>
+              <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Live Site</span>
+            </div>
+          </div>
+        </div> 
+
 
         <div className='project' >
           <div className='portImage' onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
@@ -29,6 +49,23 @@ export default function Portfolio() {
               <span className='portIconText'>Github Repo</span>
             </div>
             <div className='portlink' onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
+              <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Live Site</span>
+            </div>
+          </div>
+        </div>
+
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
+            <img src={project6} width="100%" alt="project6" ></img>
+          </div>
+          <h2>Movies2Watch</h2>
+          <div className='portLinkBox'>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Movies2Watch')}>
+              <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Github Repo</span>
+            </div>
+            <div className='portlink' onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
               <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Live Site</span>
             </div>
@@ -80,23 +117,6 @@ export default function Portfolio() {
               <span className='portIconText'>Github Repo</span>
             </div>
             <div className='portlink' onClick={event => window.open('https://pherpat.github.io/Module5-challenge-planner/')}>
-              <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
-              <span className='portIconText'>Live Site</span>
-            </div>
-          </div>
-        </div>
-
-        <div className='project' >
-          <div className='portImage' onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
-            <img src={project6} width="100%" alt="project6" ></img>
-          </div>
-          <h2>Movies2Watch</h2>
-          <div className='portLinkBox'>
-            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/Movies2Watch')}>
-              <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
-              <span className='portIconText'>Github Repo</span>
-            </div>
-            <div className='portlink' onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
               <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Live Site</span>
             </div>
