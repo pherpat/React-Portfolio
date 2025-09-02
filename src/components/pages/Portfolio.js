@@ -30,9 +30,9 @@ export default function Portfolio() {
               <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
               <span className='portIconText'>Github Repo</span>
             </div>
-            <div className='portlink' onClick={event => window.open('https://glazed-and-confused.herokuapp.com/')}>
+            <div className='portlink' onClick={event => window.open('https://github.com/PMengler/glazed-and-confused')}>
               <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
-              <span className='portIconText'>Live Site</span>
+              {/* <span className='portIconText'>Live Site</span> */}
             </div>
           </div>
         </div> 
@@ -50,7 +50,7 @@ export default function Portfolio() {
             </div>
             <div className='portlink' onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
               <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
-              <span className='portIconText'>Live Site</span>
+              {/* <span className='portIconText'>Live Site</span> */}
             </div>
           </div>
         </div>
