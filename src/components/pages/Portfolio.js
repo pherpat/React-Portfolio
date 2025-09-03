@@ -23,7 +23,7 @@ export default function Portfolio() {
 
 
          <div className='project' >
-          <div className='portImage' onClick={event => window.open('https://glazed-and-confused.herokuapp.com/')}>
+          <div className='portImage' onClick={event => window.open('https://github.com/pherpat/glazed-and-confused')}>
             <img src={project7} width="100%" alt="project7" ></img> 
           </div>
           <h2>Glazed & Confused</h2>
@@ -70,7 +70,7 @@ export default function Portfolio() {
         </div>
 
         <div className='project' >
-          <div className='portImage' onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
+          <div className='portImage' onClick={event => window.open('https://github.com/pherpat/Beer-n-Bites')}>
             <img src={project2} width="100%" alt="project2" ></img>
           </div>
           <h2>Beer'n'Bites</h2>
