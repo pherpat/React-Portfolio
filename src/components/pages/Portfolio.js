@@ -10,6 +10,8 @@ import project6 from '../assets/movies2watch.png';
 import portGit from '../assets/port-git.svg';
 import portLink from '../assets/port-link.svg';
 import project7 from '../assets/gc-screenshot.jpg';
+import project8 from '../assets/port-hse.jpg';
+import project9 from '../assets/port-kai.jpg';
 
 //onclick function and open in a new window 
 //building portfolio cards 
@@ -37,6 +39,35 @@ export default function Portfolio() {
           </div>
         </div> 
 
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://github.com/pherpat/HSE')}>
+            <img src={project8} width="100%" alt="project8" ></img>
+          </div>
+          <h2>HSE DEFENSE</h2>
+          <div className='portLinkBox'>
+            <div className='portlink' onClick={event => window.open('https://github.com/pherpat/HSE')}>
+              <span className='portIcon'><img src={portGit} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Github Repo</span>
+            </div>
+            {/* <div className='portlink' onClick={event => window.open('https://bryanjeremysmith.github.io/Movies2Watch/')}>
+              <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Live Site</span>
+            </div> */}
+          </div>
+        </div>
+
+        <div className='project' >
+          <div className='portImage' onClick={event => window.open('https://kailuarailbuilders.com/')}>
+            <img src={project9} width="100%" alt="project9" ></img>
+          </div>
+          <h2>KAILUA RAIL BUILDERS</h2>
+          <div className='portLinkBox'>
+            <div className='portlink' onClick={event => window.open('https://kailuarailbuilders.com/')}>
+              <span className='portIcon'><img src={portLink} width="100%" alt="Github Logo" ></img></span>
+              <span className='portIconText'>Live Site</span>
+            </div>
+          </div>
+        </div>
 
         <div className='project' >
           <div className='portImage' onClick={event => window.open('https://beer-n-bites.herokuapp.com/')}>
@@ -139,6 +170,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+
+        
 
       </div>
     </div>
